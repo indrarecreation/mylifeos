@@ -1,5 +1,5 @@
 /* MY LIFE OS frontend. Configure API_URL before deployment. */
-const API_URL = "PASTE_YOUR_APPS_SCRIPT_WEB_APP_URL_HERE";
+const API_URL = "https://script.google.com/macros/s/AKfycby9su_NzUZQ46GR5SuOiiVmHifrjgNW4lJhz2fM_E_EbttBOANYV02oAiWsP0KQz8rfaw/exec";
 const $ = (id) => document.getElementById(id);
 let authMode = "login";
 let sessionToken = localStorage.getItem("mylifeos_session") || "";
